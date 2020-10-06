@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/44/44386.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/world-icon.png" />
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <title>Let's Explore World</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+    <!--Navbar-->
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation">The November Room</a
+        ><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button"
+          onclick="toggleNavbar('example-collapse-navbar')"
+        >
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div
+        class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar"
+      >
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!--Icon 1-->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
+              ><i
+                class="text-orange-500 fab fa-facebook text-lg leading-lg "
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Share</span></a
+            >
+          </li>
+          <!--Icon 2-->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
+              ><i
+                class="text-orange-500 fab fa-twitter text-lg leading-lg "
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+            >
+          </li>
+          <!--Icon 3-->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
+              ><i
+                class="text-orange-500 fab fa-linkedin text-lg leading-lg "
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Profile</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!--Main Area-->
+    <main>
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 95vh;"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-top bg-cover"
+          style='background-image: url("https://images.unsplash.com/photo-1500614922032-b6dd337b1313?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" );'
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto" data-aos="zoom-in-right">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div>
+                <h1 class="text-white font-semibold text-5xl">
+                  Let's Explore <span class="text-orange-500">World</span>
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  “See the world. It's more fantastic than any dream made or paid for in factories. Ask for no guarantees, ask for no security.”
+                </p>
+                <a href="#" class="bg-transparent hover:bg-orange-500 text-blue-500 font-semibold hover:text-white p-4
+                border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer scrollbar-track:rounded">Explore World</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px; transform: translateZ(0px);">
+            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        </div>
+
+        <!--About Section-->
+
+        <section id="about" class="relative py-20 bg-black text-white">
+
+            <div class="container mx-auto px-4">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-left">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1547707188-cdbffa0bc270?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=322&q=80" />
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+                        <div class="md:pr-12">
+                            <h5 class=" text-2xl uppercase font-semibold text-orange-500">Let's Tour India</h5>
+                            <h3 class=" text-4xl uppercase font-semibold ">Indian peafowl</h3>
+                            <p class="mt-4 text-lg leading-relaxed ">
+                                In 1963, the peacock was declared the National Bird of India because of its rich religious and legendary involvement in Indian traditions. The criteria for this choice were many. The bird must be well-distributed within the country so it could truly 'national'.
+                                It must be recognisable to the common man. </p>
+                            <span><a href="https://en.wikipedia.org/wiki/Indian_peafowl" target="_blank" class="no-underline hover:underline text-blue-500 text-lg">Read More</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about2" class="relative py-20 bg-black text-white">
+
+            <div class="container mx-auto px-4">
+                <div class="items-left flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+                        <h5 class=" text-2xl uppercase font-semibold text-orange-500">Let's Tour India</h5>
+                        <h3 class=" text-4xl uppercase font-semibold ">Sadhu</h3>
+                        <p class="mt-4 text-lg leading-relaxed ">
+                            Sadhu, also spelled saddhu, is a religious ascetic, mendicant or any holy person in Hinduism and Jainism who has renounced the worldly life. They are sometimes alternatively referred to as jogi, sannyasi or vairagi. Literally, it means one who practises
+                            a ″sadhana″ or keenly follows a path of spiritual discipline </p>
+                        <span><a href="https://en.wikipedia.org/wiki/Sadhu" target="_blank" class="no-underline hover:underline text-blue-500 text-lg">Read More</a></span>
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="flip-left">
+                        <div class="md:pr-12">
+                            <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1517309246852-c500628fefad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Header Section -->
+
+        <section class="pb-20 relative block bg-black text-white ">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 " style="height: 80px; transform: translateZ(0px); ">
+                <svg class="absolute bottom-0 overflow-hidden " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="none " version="1.1 " viewBox="0 0 2560 100 " x="0 " y="0 ">
+            <polygon
+              
+              points="2560 0 2560 100 0 100 "
+            ></polygon>
+          </svg>
+            </div>
+        </section>
+
+        <!--Contact FORM-->
+        </main>
+
+        <!--Footer-->
+        <footer class="relative bg-gray-300 pt-8 pb-6 ">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 " style="height: 80px; transform: translateZ(0px); ">
+                <svg class="absolute bottom-0 overflow-hidden " xmlns="http://www.w3.org/2000/svg " preserveAspectRatio="none " version="1.1 " viewBox="0 0 2560 100 " x="0 " y="0 ">
+          <polygon
+            class="text-gray-300 fill-current "
+            points="2560 0 2560 100 0 100 "
+          ></polygon>
+        </svg>
+            </div>
+            <div class="container mx-auto px-4 ">
+                <div class="flex flex-wrap ">
+                    <div class="w-full lg:w-6/12 px-4 ">
+                        <h4 class="text-3xl font-semibold ">Follow us on Social Media</h4>
+                        <h5 class="text-lg mt-0 mb-2 text-gray-700 ">
+                            Find us on any of these platforms, we respond 1-2 business days.
+                        </h5>
+                        <div class="mt-6 ">
+                            <button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 " type="button ">
+                <i class="flex fab fa-twitter "></i></button
+              ><button
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 "
+                type="button "
+              >
+                <i class="flex fab fa-facebook-square "></i></button
+              ><button
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 "
+                type="button "
+              >
+                <i class="flex fab fa-dribbble "></i></button
+              ><button
+                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 "
+                type="button "
+              >
+                <i class="flex fab fa-github "></i>
+              </button>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="my-6 border-gray-400 " />
+                <div class="flex flex-wrap items-center md:justify-between justify-center ">
+                    <div class="w-full md:w-4/12 px-4 mx-auto text-center ">
+                        <div class="text-sm text-gray-600 font-semibold py-1 ">
+                            Copyright © 2020 Let's Explore World
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden ");
+        document.getElementById(collapseID).classList.toggle("block ");
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js " integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin=" anonymous "></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false
+    })
+</script>
+
+</html>
