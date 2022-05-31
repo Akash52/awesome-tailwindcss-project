@@ -9,28 +9,293 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 p-3">
+          <div class="bg-gray-200 p-3 rounded-lg">
+            <h2 class="text-gray-700 text-lg font-semibold">
+              Positioning
+            </h2>
+            <p class="mt-4">
+              Use the <code class="inline-code">.relative</code> class to position an element relative to its parent.
+            </p>
+            <div class="relative">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is positioned relative to its parent.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.absolute</code> class to position an element absolutely relative to the viewport.
+            </p>
+            <div class="absolute">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is positioned absolutely relative to the viewport.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.fixed</code> class to position an element fixed relative to the viewport.
+            </p>
+            <div class="fixed">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is positioned fixed relative to the viewport.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.sticky</code> class to position an element fixed relative to the viewport, but only when it is in the viewport.
+            </p>
+            <div class="sticky">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is positioned fixed relative to the viewport, but only when it is in the viewport.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.z-10</code> class to set the z-index of an element to 10.
+            </p>
+            <div class="z-10">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element has a z-index of 10.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.z-20</code> class to set the z-index of an element to 20.
+            </p>
+            <div class="z-20">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element has a z-index of 20.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
 
     <!-- Top left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute top-0 left-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    
     <!-- Top right corner -->
+
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute top-0 right-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
 
     <!-- Bottom left corner -->
 
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute bottom-0 left-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
+
     <!-- Bottom right corner -->
+
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute bottom-0 right-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+
 
     <!-- Span top edge -->
 
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
+
     <!-- Span left edge -->
+
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span right edge -->
 
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 right-0 h-16 bg-yellow-300"></div>
+    </div>
+
     <!-- Span bottom edge -->
+
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Display Classes -->
 
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 p-3">
+          <div class="bg-gray-200 p-3 rounded-lg">
+            <h2 class="text-gray-700 text-lg font-semibold">
+              Display Classes
+            </h2>
+            <p class="mt-4">
+              Use the <code class="inline-code">.block</code> class to make an element take up the width of its parent.
+            </p>
+            <div class="block">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed block.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.inline</code> class to make an element take up the width of its parent, but without wrapping it in a container.
+            </p>
+            <div class="inline">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed inline.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.inline-block</code> class to make an element take up the width of its parent, but without wrapping it in a container.
+            </p>
+            <div class="inline-block">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed inline-block.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.flex</code> class to make an element take up the width of its parent, but without wrapping it in a container.
+            </p>
+            <div class="flex">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed flex.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.inline-flex</code> class to make an element take up the width of its parent, but without wrapping it in a container.
+            </p>
+            <div class="inline-flex">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed inline-flex.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.hidden</code> class to hide an element.
+            </p>
+            <div class="hidden">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is hidden.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.block</code> class to make an element take up the width of its parent.
+            </p>
+            <div class="block">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is displayed block.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <!-- Z-Index -->
 
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 p-3">
+          <div class="bg-gray-200 p-3 rounded-lg">
+            <h2 class="text-gray-700 text-lg font-semibold">
+              Z-Index
+            </h2>
+            <p class="mt-4">
+              Use the <code class="inline-code">.z-10</code> class to set the z-index of an element to 10.
+            </p>
+            <div class="z-10">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element has a z-index of 10.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.z-20</code> class to set the z-index of an element to 20.
+            </p>
+            <div class="z-20">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element has a z-index of 20.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <!-- Floats -->
+     
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 p-3">
+          <div class="bg-gray-200 p-3 rounded-lg">
+            <h2 class="text-gray-700 text-lg font-semibold">
+              Floats
+            </h2>
+            <p class="mt-4">
+              Use the <code class="inline-code">.float-left</code> class to float an element to the left.
+            </p>
+            <div class="float-left">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is floated left.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.float-right</code> class to float an element to the right.
+            </p>
+            <div class="float-right">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is floated right.
+                </p>
+              </div>
+            </div>
+            <p class="mt-4">
+              Use the <code class="inline-code">.float-none</code> class to remove the float from an element.
+            </p>
+            <div class="float-none">
+              <div class="bg-blue-500 p-3 rounded-lg">
+                <p class="text-white">
+                  This element is not floated.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
   </body>
 </html>
 
