@@ -8,7 +8,43 @@
     <title>Breakpoints & Media Queries</title>
   </head>
   <!-- Tailwind is mobile-first -->
-  <body></body>
+  <body
+    class="bg-black sm:bg-yellow-700 md:bg-blue-700 lg:bg-indigo-700 xl:bg-pink-700 2xl:bg-purple-700"
+  >
+    <h1
+      class="text-white sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:bg-purple-700"
+    ></h1>
+    <script>
+      function showBrowserWidth() {
+        var width = window.innerWidth;
+        document.querySelector('h1').innerText = `Browser width: ${width}px`;
+      }
+      window.onload = showBrowserWidth;
+      window.onresize = showBrowserWidth;
+      function showBreakpoint() {
+        var width = window.innerWidth;
+        if (width < 640) {
+          document.querySelector('h1').innerText = `Breakpoint: xs`;
+        } else if (width < 768) {
+          document.querySelector('h1').innerText = `Breakpoint: sm`;
+        } else if (width < 1024) {
+          document.querySelector('h1').innerText = `Breakpoint: md`;
+        } else if (width < 1280) {
+          document.querySelector('h1').innerText = `Breakpoint: lg`;
+        } else if (width < 1440) {
+          document.querySelector('h1').innerText = `Breakpoint: xl`;
+        } else if (width < 1920) {
+          document.querySelector('h1').innerText = `Breakpoint: 2xl`;
+        } else if (width < 2560) {
+          document.querySelector('h1').innerText = `Breakpoint: 3xl`;
+        } else {
+          document.querySelector('h1').innerText = `Breakpoint: 4xl`;
+        }
+      }
+      window.onload = showBreakpoint;
+      window.onresize = showBreakpoint;
+    </script>
+  </body>
 </html>
 
 <!-- Breakpoint Classes
