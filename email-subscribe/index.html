@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Subscribe</title>
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+      <!-- Card -->
+      <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <!-- Image -->
+          <img
+            src="/images/image.jpg"
+            alt="Image"
+            class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:rounded- xl hover:scale-105 duration-200"
+          />
+          <!-- Text -->
+          <div class="p-6 md:p-12">
+            <h2
+              class="font-serif text-xl font-medium text-center text-white md:text-left"
+            >
+              Get the latest news and updates
+            </h2>
+            <p
+              class="max-w-xs my-4 text-xs leading-5 text-center tracking-wide text-white"
+            >
+              Sign up to our newsletter to get the latest news and updates
+              straight to your inbox.
+            </p>
+            <div
+              class="flex flex-col mt-5 space-y- md:space-x-3 md:flex-row md:space-y-0"
+            >
+              <input
+                type="email"
+                class="w-full p-2 px-4 text-center text-white bg-zinc-800 border-2 border-zinc-600 placeholder-zinc-600 placeholder-text-xs focus:outline-none focus:border-zinc-600 focus:shadow-outline-zinc-600 md:text-left placeholder:md:text-left"
+                placeholder="Email Address"
+              />
+              <button
+                type="submit"
+                class="py-3 px-5 text-xs mt-2 text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white rounded"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
